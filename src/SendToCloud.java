@@ -9,8 +9,8 @@ import java.util.List;
 public class SendToCloud {
 
     private static String HOST_ADDR;
-    private static final String USERNAME = "Cedric";
-    private static final String PASSWORD = "81-C4l1f0rn14";
+    private static final String USERNAME = "";
+    private static final String PASSWORD = "";
 
     public static void main(String[] args) {
 
@@ -105,7 +105,7 @@ public class SendToCloud {
         Boolean gotaresponse = false ;
         ArrayList<String> pingResultLines = new ArrayList<>();
         String inputLine;
-        String cmd = "ping -c 2 DaVrewRPi.local";
+        String cmd = "ping -c 2 x.x.x.x";
         int k = 0;
 
         try {
