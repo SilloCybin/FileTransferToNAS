@@ -16,11 +16,11 @@ public class SendToCloud {
 
         if (!isConnectedToVPN() && !isConnectedToLAN() ){
 
-            System.out.println("This computer can't establish a secure connection to DaVrewRPi. A secure connection must have been established in order to transfer desired files to the NAS");
+            System.out.println("This computer can't establish a secure connection to x.x.x.x. . A secure connection must have been established in order to transfer desired files to the NAS");
 
         } else {
 
-            System.out.println("Secure connection to DaVrewRPi ("+HOST_ADDR+") has been checked. Proceeding to file listing.");
+            System.out.println("Secure connection to x.x.x.x ("+HOST_ADDR+") has been checked. Proceeding to file listing.");
 
             File folder = new File("/Users/cedricdevries/Desktop/NAS");
             DBOperations dbOps = new DBOperations();
