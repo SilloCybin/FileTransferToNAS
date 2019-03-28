@@ -8,8 +8,8 @@ import java.sql.*;
 public class DBOperations {
 
     private static String URL;
-    private static final String username = "root";
-    private static final String password = "81-C4l1f0rn14";
+    private static final String username = "";
+    private static final String password = "";
 
     public List<File> dbCheck(List<File> fileList, String cloudAddress) throws Exception {
 
