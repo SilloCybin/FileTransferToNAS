@@ -14,10 +14,10 @@ public class DBOperations {
     public List<File> dbCheck(List<File> fileList, String cloudAddress) throws Exception {
 
         if (cloudAddress.equals("10.8.0.1")){
-            URL = "jdbc:mysql://10.8.0.1:3306/Cloud";
+            URL = "jdbc:mysql://10.8.0.1:3306/Cloud?serverTimezone=UTC";
         }
         else {
-            URL = "jdbc:mysql://192.168.1.81:3306/Cloud";
+            URL = "jdbc:mysql://192.168.1.81:3306/Cloud?serverTimezone=UTC";
         }
 
         List<File> checkedFileList = new ArrayList<>();
